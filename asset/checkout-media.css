@@ -1,0 +1,311 @@
+@media screen and (min-width:1200px) {}
+
+@media screen and (min-width:1200px) and (max-width: 1280px) {}
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+    footer p br {
+        display: none;
+    }
+    .chk-itm-txt {
+        width: calc(100% - 55px);
+    }
+    .chk-itm-img {
+        width: 50px;
+    }
+    .item-flex.bt-1.align-items-center {
+        align-items: flex-start !important;
+        -webkit-align-items: flex-start !important;
+    }
+    select.chkselst{
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+    .chk-itm-txt p:nth-child(1){
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    footer p br {
+        display: none;
+    }
+    .b-add-radio {
+        font-size: 14px;
+    }
+    .chk-itm-txt {
+        width: calc(100% - 55px);
+    }
+    .chk-itm-img {
+        width: 50px;
+    }
+    .item-flex.bt-1.align-items-center {
+        align-items: flex-start !important;
+        -webkit-align-items: flex-start !important;
+    }
+    .p-info-card .card-rd {
+        width: calc(65% - 8px);
+    }
+    .p-info-card .card-img {
+        width: calc(35% - 8px);
+    }
+    .b-add-flex {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .b-add {
+        width: 100%;
+    }
+    .b-add.bl-0 {
+        border-left: 1px solid #dadedf;
+        margin-top: 10px;
+    }
+    .m-back-box {
+        padding: 15px 20px;
+    }
+    .logo-flex img {
+        max-width: 204px;
+        height: fit-content;
+    }
+    .card-type .b-add.bl-0 {
+        margin-top: 10px;
+        border: 0px !important;
+        background: #fff;
+    }
+    .pro-box.sl-nd {
+        padding: 9px 10px !important;
+    }
+    .pro-box {
+        padding: 15px !important;
+    }
+    .frm-box{
+        padding: 30px 15px;
+    }
+    .c-type-box{
+        padding: 20px 10px;
+    }
+    .shp-coun select, .billing-info select{
+        font-size: 11px;
+        padding: 10px 7px;
+    }
+    select.chkselst{
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+    .chk-itm-txt p:nth-child(1){
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    footer p br {
+        display: none;
+    }
+    .logo-flex img {
+        max-width: 200px;
+        height: fit-content;
+    }
+    .logo-flex {
+        align-items: center;
+        -webkit-align-items: center;
+    }
+    .b-add {
+        width: 100%;
+    }
+    .b-add-flex {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .b-add.bl-0 {
+        border-left: 1px solid #dadedf;
+        margin-top: 10px;
+    }
+    .p-info-card {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .p-info-card {
+        margin-bottom: 10px;
+    }
+    .card-type .b-add.bl-0 {
+        border-left: 1px solid #dadedf;
+        margin-top: 10px;
+        border: 0px;
+    }
+    .shp-coun {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .war-text p br{
+        display: none;
+    }
+    .shp-coun .form-group {
+        width: 100%;
+        margin-bottom: 1rem !important;
+    }
+    .b-add-radio {
+        font-size: 14px;
+    }
+    .shp-name, .shp-coun{
+
+         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+
+    }
+    .shp-name .form-group {
+        width: 100%;
+    }
+    .chk-itm-txt {
+        width: calc(100% - 55px);
+    }
+    .chk-itm-img {
+        width: 50px;
+    }
+    .item-flex.bt-1.align-items-center {
+        align-items: flex-start !important;
+        -webkit-align-items: flex-start !important;
+    }
+    .m-back-box {
+        padding: 15px 20px;
+    }
+    
+    .order-info{
+
+        margin-bottom:30px;
+        padding:20px;
+        position: relative;
+
+    }
+    
+    .ftr-txt {
+    font-size: 12px;
+    margin: 5px 0;
+    }
+    .ftr-txt2 {
+       margin-top: 6px;
+    padding: 0 0px;
+    font-size: 14px;
+    }
+    .mobile-box{
+        display: block!important;
+    }
+    .desktop-box{
+        display: none!important;
+    }
+    .res-align{
+        flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+    }
+    .frm-box {
+        padding: 20px;
+    }
+    .top-head p{
+        font-size: 18px;
+    }
+    .f-20 {
+        font-size: 1rem !important;
+    }
+    .content-box {
+        margin-top: 20px;
+    }
+    .pro-box.sl-nd {
+        padding: 9px 10px !important;
+    }
+    .pro-box {
+        padding: 15px !important;
+    }
+    .frm-box{
+        padding: 30px 15px;
+    }
+    .p-info-card .card-rd .b-add{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 767px) {}
+
+@media screen and (min-width:481px) and (max-width: 575px) {}
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .logo-flex img {
+        max-width: 100%;
+        height: fit-content;
+    }
+    .logo-flex img:nth-child(2) {
+        max-width: 200px;
+        height: fit-content;
+        margin-top: 5px;
+    }
+    .logo-flex {
+        align-items: center;
+        -webkit-align-items: center;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+    .b-add {
+        width: 100%;
+    }
+    .b-add-flex {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .b-add.bl-0 {
+        border-left: 1px solid #dadedf;
+        margin-top: 10px;
+    }
+    .p-info-card {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .p-info-card .card-img,
+    .p-info-card .card-rd {
+        width: 100%;
+    }
+    .p-info-card {
+        margin-bottom: 10px;
+    }
+    .card-type .b-add.bl-0 {
+        border-left: 1px solid #dadedf;
+        margin-top: 10px;
+        border: 0px;
+    }
+    .shp-coun {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .shp-coun .form-group {
+        width: 100%;
+        margin-bottom: 1rem !important;
+    }
+    .card-img.text-right {
+        text-align: left !important;
+    }
+    .card-type .b-add {
+        width: 100%;
+    }
+    .card-type {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .paypal-btn .card-rd{
+        width: calc(80% - 8px);
+
+    }
+    .paypal-btn .card-img{
+        width: calc(20% - 8px);
+
+    }
+    .pay-btn{
+    padding: 12px 12px !important;
+    font-size: 18px !important;
+    }
+
+}
+@media screen and (max-width:375px) {
+    .pay-btn{
+    padding: 12px 12px !important;
+    font-size: 18px !important;
+    }
+}

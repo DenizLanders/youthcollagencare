@@ -1,0 +1,244 @@
+.footer_icons {
+    padding-bottom: 15px;
+}
+
+.chk_header_upsell {
+    position: relative;
+    width: 100%;
+    background: #e7f8f9;
+    height: 78px;
+}
+
+.chk_header_upsell .container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.chk_header_upsell a.mail-txt {
+    float: right;
+    font-size: 15.5px;
+    line-height: 18px;
+    color: #308d9e;
+    margin-top: 29px;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.chk_header_upsell .chk-logo {
+    float: left;
+    margin-top: 22px;
+}
+
+
+.chk_stp_top {
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 14px;
+    margin-left: -150px;
+}
+
+
+
+.offer_body_right h4 {
+    color: #000 !important;
+    opacity: 0.75;
+    font-size: 40px;
+}
+
+.offer_body_right h5 {
+    color: rgb(220 38 38) !important;
+}
+
+.text_star {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.head_progresbar {
+    position: absolute;
+    width: 453px;
+    left: 50%;
+    top: 17px;
+    margin-left: -200px;
+    text-align: center;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.head_progresbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.head_progresbar li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 30px;
+    position: relative;
+}
+
+.head_progresbar li::after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    width: 50%;
+    height: 3px;
+    background: #ABABAB;
+    top: 10px;
+}
+
+.head_progresbar li::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    width: 50%;
+    height: 3px;
+    background: #ABABAB;
+    top: 10px;
+}
+
+.head_progresbar li:last-child::after {
+    display: none;
+}
+
+.head_progresbar li:first-child::before {
+    display: none;
+}
+
+.check_number {
+    background: #ABABAB;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 9;
+}
+
+.head_progresbar li span {
+    font-weight: 600;
+    margin-top: 4px;
+    display: block;
+    color: #ABABAB;
+    font-size: 15px;
+}
+
+.head_progresbar li.active span {
+    color: #000;
+}
+
+.head_progresbar li.active .check_number {
+    background: #40b6a5;
+}
+
+.active2 li:nth-child(1)::after,
+.active2 li:nth-child(2)::before {
+    background: #40b6a5;
+}
+
+.active3 li:nth-child(1)::after,
+.active3 li:nth-child(2)::before,
+.active3 li:nth-child(2)::after,
+.active3 li:nth-child(3)::before {
+    background: #40b6a5;
+}
+
+
+.check_number img {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    width: 12px;
+    margin-left: -6px;
+    margin-top: -5px;
+}
+
+
+@media only screen and (max-width: 1140px) {
+    .chk_header_upsell a.mail-txt {
+        display: none;
+    }
+
+    .chk_header_upsell {
+        padding: 10px 10px 15px 10px !important;
+    }
+
+    .head_progresbar {
+        left: auto;
+        right: 0;
+        margin: 0;
+    }
+
+    .chk_header_upsell .chk-logo {
+        margin-top: 12px;
+    }
+
+    .head_progresbar {
+        top: 6px;
+    }
+
+    .chk_header_upsell .container {
+        max-width: 100%;
+        width: 100%;
+        overflow: visible;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .chk_stp_top {
+        left: auto;
+        right: 0;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    .chk_header_upsell {
+        text-align: center;
+    }
+
+    .chk_stp_top {
+        top: 5px;
+        position: relative;
+        width: auto;
+    }
+
+
+    .text_star {
+        margin-left: -41px;
+        text-align: center;
+    }
+
+    .chk_header_upsell .chk-logo {
+        float: none;
+        display: block;
+        margin: 0 auto 12px auto !important;
+        width: auto !important;
+    }
+
+    .chk_header_upsell {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .head_progresbar {
+        position: relative;
+        width: 100%;
+    }
+
+    .head_progresbar li {
+        padding: 0 4%;
+        position: relative;
+    }
+
+}
